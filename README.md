@@ -1,4 +1,4 @@
-# Multivariate General Linear Models (MGLM) on Riemannian Manifolds 
+## Multivariate General Linear Models (MGLM) on Riemannian Manifolds 
 with Applications to Statistical Analysis of Diffusion Weighted Images.
 
 
