@@ -1,9 +1,9 @@
 Multivariate General Linear Models (MGLM) on Riemannian Manifolds 
 with Applications to Statistical Analysis of Diffusion Weighted Images.
 
-http://pages.cs.wisc.edu/~hwkim/projects/riem-mglm/
+[Project Page](http://pages.cs.wisc.edu/~hwkim/projects/riem-mglm/)
 
-Kim, Hyunwoo J., et al. "Multivariate general linear models (MGLM) on Riemannian manifolds with applications to statistical analysis of diffusion weighted images.,CVRP. 2014. *(Oral Presentation)*
+Hyunwoo J. Kim, Nagesh Adluru, Maxwell D. Collins, Moo K. Chung, Barbara B. Bendlin, Sterling C. Johnson, Richard J. Davidson, Vikas Singh, Multivariate General Linear Models (MGLM) on Riemannian Manifolds with Applications to Statistical Analysis of Diffusion Weighted Images, In IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR), June 2014. *(Oral presentation)*
 
 Hyunwoo J. Kim (hwkim@cs.wisc.edu)
 
