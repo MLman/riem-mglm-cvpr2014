@@ -12,3 +12,4 @@ function exp_x_y = expmap_sphere(x,y)
 %   $Revision: 0.1 $  $Date: 2014/06/23 15:26:13 $
 
 exp_x_y = cos(norm(y))*x+sin(norm(y))*y/zero2one(norm(y));
+exp_x_y = exp_x_y/norm(exp_x_y);
