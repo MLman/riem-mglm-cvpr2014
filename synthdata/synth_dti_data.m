@@ -50,3 +50,4 @@ end
 assert(isspd_mxstack(Ysample) == 1)
 X = Xsample;
 Y = Ysample;
+[p, V, E, Y_hat, gnorm] = mglm_spd(X, Y, varargin)

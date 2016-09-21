@@ -3,7 +3,7 @@ function P = randspd(n, varargin)
 %
 %   P = randspd(n)
 %   P = randspd(n,c)
-%   P = randspd(n,c,udit)
+%   P = randspd(n,c,udist)
 %
 %   c is parameter for variance. Bigger c has bigger variance.
 %   udist is the upper bound of distance from I to P w.r.t. GL-invariant

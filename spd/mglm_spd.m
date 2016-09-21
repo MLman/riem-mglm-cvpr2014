@@ -76,13 +76,13 @@ function [p, V, E, Y_hat, gnorm] = mglm_spd(X, Y, varargin)
         end
 
         % Safegaurd
-        [gradp gradV] = safeguard(gradp, gradV, p, c2);
+        [gradp, gradV] = safeguard(gradp, gradV, p, c2);
         
         moved = 0;
         for i = 1:50
             step = step*0.5;
             % Safegaurd for gradv, gradp
-            V_new = V -step*gradV;
+            V_new = V-step*gradV;
             p_new = expmap_spd(p,-step*gradp);
             if ~isspd(p_new)
                 p_new = proj_M_spd(p_new);
@@ -125,7 +125,7 @@ function ns = normVs(p,V)
 end
  
 %% Safeguard
-function [gradp gradV] = safeguard(gradp, gradV, p, c2)
+function [gradp, gradV] = safeguard(gradp, gradV, p, c2)
     ns = normVs(p,gradV);
     normgradv = sum(ns);
     ns = normVs(p,gradp);
