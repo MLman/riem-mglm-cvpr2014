@@ -8,8 +8,7 @@ function exp_x_y = expmap_sphere(x,y)
 %    
 %   See also LOGMAP_SPHERE
 
-%   Hyunwoo J. Kim
-%   $Revision: 0.1 $  $Date: 2014/06/23 15:26:13 $
+%   $ Hyunwoo J. Kim $  $ 2016/09/21 07:30:49 (CDT) $
 
 exp_x_y = cos(norm(y))*x+sin(norm(y))*y/zero2one(norm(y));
 exp_x_y = exp_x_y/norm(exp_x_y);

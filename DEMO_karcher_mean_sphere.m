@@ -1,4 +1,7 @@
 %function DEMO_karcher_mean_sphere
+%
+%   $ Hyunwoo J. Kim $  $ 2016/09/21 07:30:49 (CDT) $
+
 clear;
 addpath(genpath(pwd));
 disp('Start.');

@@ -11,8 +11,7 @@ function xbar = karcher_mean_sphere(X, W, niter,varargin)
 %
 %   See also LOGMAP_SPHERE, EXPMAP_SPHERE
 
-%   Hyunwoo J. Kim
-%   $Revision: 0.1 $  $Date: 2014/06/23 15:20:53 $
+%   $ Hyunwoo J. Kim $  $ 2016/09/21 07:30:49 (CDT) $
 
 %xbar = X(:,1);
 xbar = mean(X,2);
